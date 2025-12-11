@@ -800,10 +800,10 @@ button, a, .btn{
 }
 
 .dropdown-menu {
-    background-color: var(--primary);
+    background-color: var(--text-color);
     border-radius: 0;
     border: none;
-    padding: 0;
+    padding: 10px 10px 10px 10px;
     overflow: hidden;
     margin-top: 1.125em !important;
     border-radius: 0px 0px 0px 0px;
@@ -816,6 +816,7 @@ button, a, .btn{
     font-size: 1rem;
     font-weight: 600;
     line-height: 1em;
+    background-color: var(--text-color);
     color: var(--secondary);
     transition: all 300ms;
     padding: 15px 15px 15px 15px;
